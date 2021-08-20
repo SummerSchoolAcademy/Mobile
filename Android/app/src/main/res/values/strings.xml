@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SummerSchool</string>
+
+    <!--    Fragment titles-->
+    <string name="university_list_title">SummerSchool</string>
+    <string name="university_details_title">Details</string>
+
+    <!--    Format string-->
+    <string name="university_item_year_format">Year: %d</string>
+    <string name="university_item_city_format">City: %s</string>
+</resources>

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "E0BE389C-B29D-45BE-971B-4CC786E40D0A",
+    "name": "1 Decembrie 1918 University, Alba Iulia",
+    "city": "Alba Iulia",
+    "description": "1 Decembrie 1918 University, Alba Iulia is a public higher education and research institution founded in 1991 in Alba Iulia, Romania. It is a state institution, integrated into the national higher education system, which functions based on the Romanian Constitution, the Law of Education, the University Charter and its own regulations.",
+    "year": 1991,
+    "image":"alba-iulia.jpg"
+  },
+  {
+    "id": "AE8949F6-FAF3-4195-9E33-04D9CCA2AB39",
+    "name": "Aurel Vlaicu University of Arad",
+    "city": "Arad",
+    "description": "Started in 1972, as the Arad Institute of Sub-Engineers, the institution was accredited on 18 May 1990 to grant university degrees. Over the years, Aurel Vlaicu University has developed new specializations, with new faculties, which meet the terms of quality standards. The 2009–10 academic year marks the establishment of the Faculty of Design and the specializations: psychology, computer science, economics, marketing, and fashion and fashion design. Thus at the beginning of academic year UAV has 9 departments, 38 specialties license, 19 master's programs, field IOSUD (Institution organizing PhD studies) in Philology, and 12 departments.",
+    "year": 1990,
+    "image":"arad.jpg"
+  },
+  {
+    "id": "DA966341-AD91-4C12-B115-8896F79FC7C4",
+    "name": "Vasile Alecsandri University of Bacau",
+    "city": "Bacau",
+    "description": "The first higher education school in Bacău was founded in 1961 as the Pedagogical Institute of Bacău. In 1984 it was transformed into the Sub-Engineering Institute, subordinated to the Technical University of Iași. In 1990, the institution became a university.",
+    "year": 1961,
+    "image":"bacau.jpg"
+  },
+  {
+    "id": "3F5E5A17-D022-4582-B815-A28F09F49A9B",
+    "name": "Transylvania University of Brasov",
+    "city": "Brasov",
+    "description":  "Transilvania University of Brașov (Romanian: Universitatea Transilvania din Brașov; UNITBV) is a higher education and research institution in Brașov, Romania, which comprises 18 faculties, with a number of over 19,500 students and over 730 teaching staff members. Currently, Transilvania University of Brașov is the largest university in the centre of the country, a university that offers programmes in fields such as: mechanical engineering, industrial engineering, computers, construction, forestry, wood engineering, product design, nutrition and tourism, computer science, mathematics, economics, medicine, pedagogy, music, literature and linguistics, law, sociology and social work, psychology. There are 100 undergraduate programmes in the University: 83 full-time study programmes, 6 part-time study programmes and 11 distance learning programmes, 74 master's degree study programmes (70 full-time and 4 part-time) and 18 doctoral fields (full-time and part-time).",
+    "year": 1948,
+    "image": "brasov.jpg"
+  },
+  {
+    "id": "55C9C223-B26C-4958-A3CD-EE69FB9A680E",
+    "name": "Polytechnic University of Bucharest",
+    "city": "Bucharest",
+    "description":  "Politehnica University of Bucharest (Romanian: Universitatea Politehnica din București) is a technical university in Bucharest, Romania. 200 years of activity have been celebrated lately, as the university was founded in 1818. Politehnica University is classified by the Ministry of Education as an advanced research and education university.",
+    "year": 1818,
+    "image": "bucuresti-univ.jpg"
+  },
+  {
+    "id": "FDABB38B-9CDD-445E-9EA8-B06EE70802BB",
+    "name": "University of Bucharest",
+    "city": "Bucharest",
+    "description":  "The University of Bucharest (Romanian: Universitatea din București), commonly known after its abbreviation UB in Romania, is a public university founded on 4 July 1864 (157 years ago) by a decree of Prince Alexandru Ioan Cuza to convert the former Princely Academy into the current University of Bucharest, making it the second oldest modern Romanian university. It is one of the five members of the Universitaria Consortium (the group of elite Romanian universities).",
+    "year": 1694,
+    "image": "bucuresti-upb.jpg"
+  },
+  {
+    "id": "9E00AC1B-ED5F-49BC-A431-3F7DD7D865AF",
+    "name": "Technical University of Cluj-Napoca",
+    "city": "Cluj-Napoca",
+    "description":  "The Technical University of Cluj-Napoca (UTC-N short for Romanian: Universitatea Tehnică din Cluj-Napoca) is a public university located in Cluj-Napoca, Romania. It was founded in 1948, based on the older Industrial College (1920). Technical University of Cluj-Napoca is classified by the Ministry of Education as an advanced research and education university. The University is a member of the Romanian Alliance of Technical Universities (ARUT).",
+    "year": 1920,
+    "image": "cluj.jpg"
+  },
+  {
+    "id": "5E7A2E3B-366B-4B06-8BA9-31AC87D339EA",
+    "name": "University of Galati",
+    "city": "Galati",
+    "description":  "The University of Galați, as it was named at first, was founded in July 1974 by merging the Polytechnical Institute and the College of Education. The Polytechnical Institute of Galați had at its origins the Naval and Mechanical Engineering Institute which has been founded in 1951. In 1953, the Institute of Fish Breeding and Fishing Technology located in the city of Constanța merged with the Naval Institute of Galați under the name of Technical Institute of Galați.",
+    "year": 1974,
+    "image": "galati.jpg"
+  },
+  {
+    "id": "0F58FFED-B2EB-4738-A8F3-66605CC4F511",
+    "name": "Lucian Blaga University of Sibiu",
+    "city": "Sibiu",
+    "description":  "The Lucian Blaga University of Sibiu (Romanian: Universitatea \"Lucian Blaga\" din Sibiu) is a public university in Sibiu, Romania. Named after the philosopher, poet, and playwright, Lucian Blaga, it was founded in 1990 with five schools: Letters, History and Law, Medicine, Food and Textile Processing Technology, Engineering and Sciences.",
+    "year": 1990,
+    "image": "sibiu.jpg"
+  },
+  {
+    "id": "CBFCEBEA-7E6B-4050-8CD8-60F8EEF8197E",
+    "name": "Mircea cel Batran Naval Academy",
+    "city": "Constanta",
+    "description":  "The Mircea cel Bătrân Naval Academy (Romanian: Academia Navală \"Mircea cel Bătrân\") is a higher education institution based in the Black Sea port of Constanța that educates future officers for the Romanian Naval Forces, as well as maritime officers and engineers for the merchant marine. At the request of the Romanian Coast Guard, the Naval Academy prepares coast guard officers.",
+    "year": 1872,
+    "image": "constanta.jpg"
+  }
+]

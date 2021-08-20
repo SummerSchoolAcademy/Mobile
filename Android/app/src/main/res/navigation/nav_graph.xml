@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/universityListFragment">
+
+    <fragment
+        android:id="@+id/universityListFragment"
+        android:name="com.dd.summerschool.ui.list.UniversityListFragment"
+        android:label="@string/university_list_title"
+        tools:layout="@layout/fragment_university_list" >
+        <action
+            android:id="@+id/action_universityListFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.dd.summerschool.ui.details.DetailsFragment"
+        android:label="@string/university_details_title"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="itemId"
+            app:argType="string"
+            android:defaultValue="5E7A2E3B-366B-4B06-8BA9-31AC87D339EA" />
+    </fragment>
+</navigation>

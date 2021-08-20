@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UniversityTableViewCell" rowHeight="405" id="KGk-i7-Jjw" customClass="UniversityTableViewCell" customModule="SummerSchool" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="938" height="405"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="938" height="405"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PK3-Ut-fVW">
+                        <rect key="frame" x="20" y="172.5" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="wfm-np-627"/>
+                            <constraint firstAttribute="width" constant="60" id="zFW-fj-afd"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fEd-Di-Mzh">
+                        <rect key="frame" x="85" y="16" width="833" height="373"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Nume universitate" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rY8-We-3E5">
+                                <rect key="frame" x="0.0" y="0.0" width="833" height="332"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An: 1998" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6B-sN-U4w">
+                                <rect key="frame" x="0.0" y="332" width="833" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oras" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKD-sH-jja">
+                                <rect key="frame" x="0.0" y="352.5" width="833" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Out-N8-r2F">
+                        <rect key="frame" x="908" y="375" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="Sbm-SL-y9E"/>
+                            <constraint firstAttribute="height" constant="20" id="rPK-QH-YzC"/>
+                        </constraints>
+                        <color key="tintColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="Button" image="heart"/>
+                        <state key="disabled" image="heart"/>
+                        <state key="selected" image="filledHeart"/>
+                        <connections>
+                            <action selector="onFavouriteButtonPressed" destination="KGk-i7-Jjw" eventType="touchUpInside" id="d4a-Nh-xX3"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Out-N8-r2F" secondAttribute="bottom" constant="10" id="AUN-Oy-JzO"/>
+                    <constraint firstAttribute="trailing" secondItem="Out-N8-r2F" secondAttribute="trailing" constant="10" id="PPS-cw-ndD"/>
+                    <constraint firstItem="PK3-Ut-fVW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Sih-8f-Fr7"/>
+                    <constraint firstItem="fEd-Di-Mzh" firstAttribute="leading" secondItem="PK3-Ut-fVW" secondAttribute="trailing" constant="5" id="cFy-ql-61s"/>
+                    <constraint firstItem="fEd-Di-Mzh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="fSU-QD-YLa"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="fEd-Di-Mzh" secondAttribute="bottom" constant="5" id="hYq-8u-N3h"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="fEd-Di-Mzh" secondAttribute="trailing" id="r5l-Xk-aCn"/>
+                    <constraint firstItem="PK3-Ut-fVW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="sMj-O2-oXa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="favouriteButton" destination="Out-N8-r2F" id="BW3-iF-Xq7"/>
+                <outlet property="universityCity" destination="oKD-sH-jja" id="ST3-zB-XTq"/>
+                <outlet property="universityImageView" destination="PK3-Ut-fVW" id="gsy-3S-qU2"/>
+                <outlet property="universityName" destination="rY8-We-3E5" id="AKJ-3b-Cwn"/>
+                <outlet property="universityYear" destination="l6B-sN-U4w" id="NwC-A8-RUt"/>
+            </connections>
+            <point key="canvasLocation" x="363.768115942029" y="-42.522321428571423"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="filledHeart" width="13" height="12"/>
+        <image name="heart" width="13" height="12"/>
+    </resources>
+</document>
